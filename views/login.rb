@@ -9,4 +9,6 @@ require 'sinatra/reloader'
 		redirect "/#{User.get(session[:userid]).email}"
 		end
 	end
+
+	erb:index
 end
